@@ -16,7 +16,7 @@ public class ComputeExpression {
             ch = _input.charAt(j);
 
             if(ch >= '0' && ch <= '9'){
-                _stack.push((int) ch);
+                ch = '0' + ch;
                 System.out.println("ch pushed "+ ch);
             }
 
